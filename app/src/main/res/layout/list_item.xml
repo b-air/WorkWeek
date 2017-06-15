@@ -38,7 +38,7 @@
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="@android:color/white"
                 android:textStyle="bold"
-                tools:text="lutti" />
+                tools:text="Title" />
 
             <TextView
                 android:id="@+id/title_text_view"
@@ -48,7 +48,7 @@
                 android:gravity="top"
                 android:textAppearance="?android:textAppearanceMedium"
                 android:textColor="@android:color/white"
-                tools:text="one" />
+                tools:text="Adress" />
         </LinearLayout>
 
     </LinearLayout>
