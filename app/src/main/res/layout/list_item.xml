@@ -11,7 +11,8 @@
         android:id="@+id/image"
         android:layout_width="@dimen/list_item_height"
         android:layout_height="@dimen/list_item_height"
-        android:layout_gravity="left" />
+        android:layout_gravity="left"
+        android:scaleType="fitXY"/>
 
     <LinearLayout
         android:id="@+id/text_container"
@@ -29,7 +30,7 @@
             android:layout_weight="1">
 
             <TextView
-                android:id="@+id/miwok_text_view"
+                android:id="@+id/title_text_view"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
@@ -50,13 +51,6 @@
                 tools:text="one" />
         </LinearLayout>
 
-        <ImageView
-            android:id="@+id/play"
-            android:layout_width="42dp"
-            android:layout_height="42dp"
-            android:layout_weight="1"
-            android:layout_gravity="center"
-            android:layout_marginRight="16dp"/>
     </LinearLayout>
 
 

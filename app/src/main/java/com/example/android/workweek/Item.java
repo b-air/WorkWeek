@@ -13,7 +13,6 @@ public class Item {
 
     private int mImageResourceId = NO_IMAGE_PROVIDED;
 
-    private int mSoundResourceId;
 
     /**
      * Constant value that represents no image was provided for this word
@@ -22,27 +21,21 @@ public class Item {
 
 
     //constructor
-    public Item(String defaultTranslation, String miwokTranslation, int soundResourceId) {
-        mDefaultTranslation = defaultTranslation;
-        mMiwokTranslation = miwokTranslation;
-        mSoundResourceId = soundResourceId;
-    }
 
-    public Item(String defaultTranslation, String miwokTranslation, int imageResourceId, int soundResourceId) {
+    public Item(String defaultTranslation, String miwokTranslation, int imageResourceId) {
         mDefaultTranslation = defaultTranslation;
         mMiwokTranslation = miwokTranslation;
         mImageResourceId = imageResourceId;
-        mSoundResourceId = soundResourceId;
     }
 
 
     //methods
 
-    public String getDefaultTranslation() {
+    public String getAdress() {
         return mDefaultTranslation;
     }
 
-    public String getMiwokTranslation() {
+    public String getTitle() {
         return mMiwokTranslation;
     }
 
@@ -54,5 +47,4 @@ public class Item {
         return mImageResourceId != NO_IMAGE_PROVIDED;
     }
 
-    public int getSoundResourceId(){ return mSoundResourceId;}
 }

@@ -15,7 +15,7 @@ public class SleepFragment extends Fragment {
 
 
     public SleepFragment() {
-        // Required empty public constructor
+        //  empty public constructor
     }
 
 

@@ -10,7 +10,7 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class FragmentPager extends FragmentPagerAdapter {
 
-    private String tabTitles[] = new String[] { "Numbers", "Family", "Colors", "Phrases" };
+    private String tabTitles[] = new String[] { "Work", "Eat", "Sleep", "Play" };
 
     public FragmentPager(FragmentManager fm) {
         super(fm);

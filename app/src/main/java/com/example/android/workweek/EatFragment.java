@@ -15,7 +15,7 @@ public class EatFragment extends Fragment {
 
 
     public EatFragment() {
-        // Required empty public constructor
+        // empty public constructor
     }
 
 

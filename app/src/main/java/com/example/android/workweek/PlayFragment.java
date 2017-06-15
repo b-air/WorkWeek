@@ -15,7 +15,7 @@ public class PlayFragment extends Fragment {
 
 
     public PlayFragment() {
-        // Required empty public constructor
+        //  empty public constructor
     }
 
 
